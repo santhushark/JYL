@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="assignment_7.css" rel="stylesheet" type="text/css">
+    <script src="assignment_7.js"></script>
+</head>
+<body>
+    <div style="width: 100%; height: 200px; display: flex;justify-content: center; align-items: center;">
+        <div class="enter_task_name">
+            <h6 id="h6_id1">ENTER TASK NAME</h6>
+            <div style="padding: 10px;">
+                <input class="rq-form-element" type="text" name="task_name" style="height: 25px; width: 250px; border-radius: 2px;" autofocus/>
+            </div>
+            <div>
+                <input class="custom_button" type="button" name="submit_btn" value="Add" onclick="Add_to_table(document.getElementsByName('task_name')[0].value)">
+            </div>
+        </div>
+    </div>
+    <div style="display: flex; flex: 1;justify-content: space-between;padding: 20px;">
+        <div class="task_status_and_completed_list">
+            <h6 id="h6_id1">TASK LIST</h6>
+            <div style="display: flex;flex: 1;">
+                <table class="tasklist" id="one">
+                    <tr>
+                        <th>Task Name</th>
+                        <!-- <th>Edit Task Name</th> -->
+                        <th>Edit Task name</th>
+                        <th>Task Status</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="task_status_and_completed_list">
+            <h6 id="h6_id1">COMPLETED TASK LIST</h6>
+            <div style="display: flex;flex: 1;">
+                <table class="tasklist2" id="two">
+                    <tr>
+                        <th>Task Name</th>
+                        <th>Delete Task</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,100 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('assets/alarm_clock_art_background.jpg');
+    background-repeat:  no-repeat;
+    background-position:  center;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.enter_task_name{
+    height: calc(120px - 20px);
+    width: calc(500px - 20px);
+    background: transparent;
+    border: 2px solid #bdbdbd;
+    border-radius: 4px;padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.custom_button{
+    height: 30px;
+    background: #b3ffd9;
+}
+
+.task_status_and_completed_list{
+    width: calc(670px - 20px);
+    height: calc(100% - 20px);
+    border: 2px solid #bdbdbd;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#h6_id1{
+    font-size: 15px;
+    text-align: center;
+    margin:0px;
+    color: #666666;
+}
+table.tasklist{
+    border: 1px solid white;
+    border-collapse: collapse;
+    width: 100%;
+}
+table.tasklist td, th{
+    border: 1px solid white;
+    width: 150px;
+    height: 35px;
+    text-align: center;
+    vertical-align: middle;
+    color: #ff4d4d;
+    border-collapse: collapse;
+    text-decoration: none;
+}
+table.tasklist td{
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+table.tasklist2{
+    border: 1px solid white;
+    border-collapse: collapse;
+    width: 100%;
+}
+table.tasklist2 td, th{
+    border: 1px solid white;
+    height: 35px;
+    text-align: center;
+    vertical-align: middle;
+    color: #ff4d4d;
+    border-collapse: collapse;
+}
+table.tasklist2 td{
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.edit_task_name_text_box{
+    height: 25px;
+    width: 120px;
+    border-radius: 2px;
+}
+
+.custom_delete_button{
+    height: 30px;
+    background: #b3ffd9;
+}

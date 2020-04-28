@@ -1,0 +1,722 @@
+$grey_shade1 : #b3b3b3
+html
+    height: auto
+
+    body
+        display: flex
+        flex-direction: column
+        align-items: center
+        margin: 0
+        height: auto
+        
+        .supreme_body_div
+            display: flex
+            flex-direction: column
+            width: 80%
+            height: auto
+            border: 1px solid black
+            flex-wrap: wrap
+
+            .S_body_div_1
+                background-image: url("assets/main-hdr-bg.jpg")
+                background-repeat: repeat
+                height: 50px
+                display: flex
+                width: calc(100%-40px)
+                padding: 0 20px
+                justify-content: space-between
+
+
+                .Hdr
+                    width: 9%
+
+                    .S_body_div_1_c1_Header
+                        font-size: 1.3vw
+                        line-height: 50px
+                        vertical-align: middle
+                        white-space: nowrap
+                        color: $grey_shade1
+
+                .S_body_div_1_c2
+                    display: flex
+                    align-items: center
+                    flex-wrap: nowrap
+
+                    .S_body_div_1_box
+                        height: 25px
+                        width: auto
+                        display: flex
+                        background-color: #0d0d0d
+                        border: 1px solid #0d0d0d
+                        border-radius: 5px
+                        margin: 0 5px
+                        padding: 0 10px
+
+                        .S_body_div_1_box_txt
+                            font-size: 0.8vw
+                            line-height: 25px
+                            font-weight: bold
+                            vertical-align: middle
+                            color: $grey_shade1
+
+                    .S_body_div_1_search_box
+                        border: 1px solid #262626
+                        border-radius: 10px
+                        height: 23px
+                        width: 140px
+                        padding: 0
+                        outline: none
+                        background: #262626 url('assets/srch-icon.png') no-repeat right
+
+                    ::placeholder
+                        color: $grey_shade1
+                    
+                    .plain_text
+                        font-size: 1vw
+                        line-height: 50px
+                        vertical-align: middle
+                        white-space: nowrap
+                        color: $grey_shade1
+
+            .S_body_div_2
+                display: flex
+                width: 100%
+                height: auto
+                flex: 1
+                background-color: white
+                
+                .S_body_div_2_ch1
+                    width: 20%
+                    height: auto
+                    background-color: #111518
+                    border: 1px solid #111518
+                    display: flex
+                    flex-direction: column
+
+                    [class*="S_bodydiv2ch1_btns_"]
+                        border: none
+                        margin: 0
+                        padding: 0
+                        width: 100%
+                        height: 45px
+                        outline: none
+                        cursor: pointer
+                        text-align: left
+                        background-color:  #111518
+
+                    .S_bodydiv2ch1_btns_1
+                        background-image: url('assets/active.jpg'), url('assets/dashboard-img.jpg')
+                        background-position: center left, 25px 8px
+                        background-repeat: no-repeat
+
+                    .S_bodydiv2ch1_btns_2 
+                        background-image: url('assets/inactive.jpg'), url('assets/lab-img.jpg')
+                        background-position: center left, 25px 8px
+                        background-repeat: no-repeat
+
+                    .S_bodydiv2ch1_btns_3 
+                        background-image: url('assets/inactive.jpg'), url('assets/forms-img.jpg')
+                        background-position: center left, 25px 8px
+                        background-repeat: no-repeat
+                    
+                    .S_bodydiv2ch1_btns_4 
+                        background-image: url('assets/inactive.jpg'), url('assets/charts-img.jpg')
+                        background-position: center left, 25px 8px
+                        background-repeat: no-repeat
+        
+                    .S_bodydiv2ch1_btns_5
+                        background-image: url('assets/inactive.jpg'), url('assets/others-img.jpg')
+                        background-position: center left, 25px 8px
+                        background-repeat: no-repeat
+
+                    .S_bodydiv2ch1_btns_txt
+                        font-size: 1vw
+                        color: $grey_shade1
+                        line-height: 40px
+                        vertical-align: middle
+                        margin-left: 80px
+
+                    .S_bodydiv2ch1_img_block
+                        height: 280px
+                        background: #111518 url("assets/cpu-usage.png") center no-repeat
+                        text-align: center
+                        display: flex
+                        justify-content: center
+                        align-items: flex-end
+
+                    .S_bodydiv2ch1_img_block_txt
+                        font-size: 15px
+                        color: $grey_shade1
+                        font-weight: bold
+                        
+                    [class*="S_bodydiv2ch1_3div_"]
+                        border: 1px solid #161E20
+                        border-left: 0
+                        border-right: 0
+                        margin: 0
+                        padding: 10px 15px
+                        width: calc(100% - 30px)
+                        height: calc(75px - 20px)
+                        outline: none
+                        background-color:  #111518
+                        display: flex
+     
+                    .S_bodydiv2ch1_3div_1
+                        margin-top: 60px
+                        background: url('assets/orders-img.png') no-repeat 165px 18px
+                        border-top: 2px solid #161E20
+
+                    .S_bodydiv2ch1_3div_2
+                        background: url('assets/income-img.png') no-repeat 165px 18px
+
+                    .S_bodydiv2ch1_3div_3
+                        background: url('assets/reviews-img.png') no-repeat 165px 18px
+                        border-bottom: 2px solid #161E20
+                    
+                        .S_bodydiv2ch1_3divDIV
+                            height: 100%
+                            margin: 0
+                            padding: 0
+
+                            .S_bodydiv2ch1_3divtxt_1
+                                margin: 0px
+                                font-size: 1.2vw
+                                padding: 0px
+                                font-weight: bolder
+
+                .S_body_div_2_ch2
+                    display: flex
+                    flex-direction: column
+                    width: 100%
+                    height: auto
+                    flex: 1
+                    background-color: grey
+
+                    .S_body_div_2_ch2_div1
+                        padding: 10px 15px
+                        height: calc(77px - 20px)
+                        width: calc(100% - 30px)
+                        background: url('assets/db-hdr-bg.jpg')
+                        justify-content: space-between
+                        display: flex
+
+                        .div1
+                            display: flex
+                            flex-direction: column
+                            height: 100% 
+                            width: 18% 
+                            justify-content: space-around
+                            align-self: flex-start
+
+                        .div2
+                            display: flex
+                            height: 100%
+                            width: 57% 
+                            align-self: flex-end
+
+                    .S_body_div_2_ch2_div2_MAIN
+                        display: flex
+                        flex-direction: column
+                        padding: 10px
+                        width: calc(100% - 20px)
+                        height: auto
+                        background-color: #F0F0F0
+
+                        .S_body_div_2_ch2_div2MAIN_div1
+                            height: 80px
+                            width: 100%
+                            display: flex
+                            flex-direction: column
+                            justify-content: center
+
+                            .S_body_div_2_ch2_div2MAIN_d1_d1
+                                height: calc(30px - 10px)
+                                width: calc(100% - 50px)
+                                border: 1px solid #BDBDBD
+                                border-radius: 2px
+                                background-image: url('assets/big-right-arrow2.jpg'), url('assets/big-right-arrow.jpg') 
+                                background-repeat: no-repeat, no-repeat
+                                background-size: 80px 30px, 25px 30px
+                                background-position: 0 0, 80px 0 
+                                display: flex
+                                padding: 5px
+                                align-self: center
+
+                        .S_body_div_2_ch2_div2MAIN_div2
+                            height: 260px
+                            width: calc(100% - 10px)
+                            display: flex
+                            padding: 5px
+
+                            .S_body_div_2_ch2_div2MAIN_div2_d1
+                                width: calc(36% - 60px)
+                                height: 100%
+                                background-color: #F0F0F0
+                                display: flex
+                                flex-wrap: wrap
+                                padding: 0
+
+
+                                [class*="S_body_div_2_ch2_div2MAIN_d2_d1_d"]
+                                    height: 72px
+                                    // width: calc(45% - 6px)
+                                    width: 38%
+                                    margin: 5px 5px
+                                    border: 1px solid #e6e6e6
+                                    padding: 0px 3px
+                                    border-radius: 3px
+                                    display: flex
+                                    flex-direction: column
+
+                                .S_body_div_2_ch2_div2MAIN_d2_d1_d1
+                                    background-color: #f6f6f6
+                                    background-image: url('assets/new-project-img.jpg'), url('assets/new-proj.png')
+                                    background-position: center, top right
+                                    background-repeat: no-repeat, no-repeat
+                                    justify-content: space-between
+
+                                .S_body_div_2_ch2_div2MAIN_d2_d1_d2
+                                    background: #f6f6f6 url('assets/msgs-img.jpg') no-repeat center
+                                    justify-content: space-between
+                                
+                                .S_body_div_2_ch2_div2MAIN_d2_d1_d3
+                                    background: #f6f6f6 url('assets/files-img.jpg') no-repeat center
+                                    justify-content: flex-end
+
+                                .S_body_div_2_ch2_div2MAIN_d2_d1_d4
+                                    background-color: #f6f6f6
+                                    background-image: url('assets/users-img.jpg'), url('assets/usr.png')
+                                    background-position: center, top right
+                                    background-repeat: no-repeat, no-repeat
+                                    justify-content: space-between
+                                
+                                .S_body_div_2_ch2_div2MAIN_d2_d1_d5
+                                    background: #f6f6f6 url('assets/facebook-icon.jpg') no-repeat center
+                                    justify-content: flex-end
+
+                                .S_body_div_2_ch2_div2MAIN_d2_d1_d6
+                                    background-color: #f6f6f6
+                                    background-image: url('assets/twitter-icon.jpg'), url('assets/follow.png')
+                                    background-position: center, top right
+                                    background-repeat: no-repeat, no-repeat
+                                    justify-content: space-between
+
+                                .grey_txt_div
+                                    height: 18px
+                                    width: 20px
+                                    background-color: #333333
+                                    border: 1px solid #333333
+                                    border-radius: 2px
+                                    text-align: center
+                                    font-size: 14px
+                                    color: white
+                                    font-weight: bold
+                            
+                            .S_body_div_2_ch2_div2MAIN_div2_d2
+                                height: calc(100% - 40px)
+                                background-color: white
+                                border: 1px solid #e6e6e6
+                                border-radius: 4px
+                                display: flex
+                                flex-wrap: wrap
+                                flex: 1
+
+                                .S_body_div_2_ch2_div2MAIN_d2_d2_d1
+                                    height: 30px
+                                    width: 100%
+                                    background: url('assets/db-menu-bg.jpg') repeat
+                                    border: 1px solid #BDBDBD
+                                    display: flex
+                                    justify-content: space-between
+                                    padding: 0px 10px
+
+                                .S_body_div_2_ch2_div2MAIN_d2_d2_d2
+                                    display: flex
+                                    height: 100%
+                                    width: 100%
+                                    background-color: white
+
+                                    .div1
+                                        display: flex
+                                        width: calc(40% - 20px)
+                                        background-color:white
+                                        padding: 15px 10px
+                                        flex-direction: column
+
+                                        .txt
+                                            font-size: 0.8vw
+                                            color: #BDBDBD
+                                            font-weight: bold
+                                
+                                .graph
+                                    display: flex
+                                    background-color: white
+                                    flex: 1
+                                    justify-content: center
+                                    align-items: center
+                                    margin: 10px
+
+                        .S_body_div_2_ch2_div2MAIN_div3
+                            height: 575px
+                            width: calc(100% - 10px)
+                            background-color:  #F0F0F0
+                            display: flex
+                            padding: 5px
+
+                            .calender_div
+                                width: 50%
+
+                                table.calender
+                                    border: 1px solid #e6e6e6
+                                    border-collapse: collapse
+                                    width: 100%
+
+                                table.calender, th
+                                    border: 1px solid #e6e6e6
+                                    border-collapse: collapse
+                                    color: #666666
+                                    font-size: 14px
+                                    font-weight: bold
+                                    text-align: center
+                                    height: 25px
+                                    padding: 0px 10px
+                
+                                table.calender, td
+                                    border: 1px solid #e6e6e6
+                                    border-collapse: collapse
+                                    color: #666666
+                                    font-size: 14px
+                                    text-align: right
+                                    font-weight: lighter
+                                    vertical-align: top
+                                    background-color: white
+                                    
+                            .S_body_div_2_ch2_div2MAIN_div3_NEWS
+                                display: flex
+                                flex-direction: column
+                                height: 100%
+                                width: 47%
+                                background: white
+                                margin-left: 20px
+                                border: 1px solid #d9d9d9
+                                
+
+                                .S_body_div_2_ch2_div2MAIN_div3_NEWS_header
+                                    height: 25px
+                                    width: calc(100% - 21px)
+                                    border-bottom: 1px solid #d9d9d9
+                                    background: url('assets/th-bg.jpg')
+                                    display: flex
+                                    justify-content: space-between
+                                    padding: 0px 10px
+                                    align-items: center
+
+                                    .blue_box
+                                        height: 16px
+                                        width: 25px
+                                        background: #1ab2ff
+                                        border-radius: 3px
+                                        line-height: 16px
+                                        vertical-align: middle
+                                        text-align: center
+                                        color: white
+                                        font-size: 11px
+                                        font-weight: bolder
+                                
+                                ul.NEWS_SCROLL
+                                    list-style-type: none
+                                    margin: 0px
+                                    padding: 0
+                                    width: 100%
+                                    height: 100%
+                                    background-color: white
+                                    overflow-y: scroll
+                                    border: none
+                                
+                                ul.NEWS_SCROLL li
+                                    display: flex
+                                    border-bottom: 1px solid #bdbdbd
+                                    align-items: center
+                                    padding: 0px 10px
+                                    height: 90px
+
+                        .S_body_div_2_ch2_div2MAIN_div4
+                            height: auto
+                            width: calc(100% - 20px)
+                            background-color:  F0F0F0
+                            display: flex
+                            padding: 25px 10px
+                            flex-direction: column
+
+                            .color_box
+                                height: 25px
+                                width: auto
+                                padding: 0 5px
+                                border-radius: 3px
+
+                                .color_box_txt
+                                    font-size: 14px
+                                    line-height: 25px
+                                    vertical-align: middle
+                                    color: white
+                                    font-weight: bold
+
+                            .box1
+                                margin: 10px 10px
+                                height: 50%
+                                width: 15%
+                                display: flex
+                                align-items: center
+                                justify-content: center
+                                border-radius: 5px
+                                border: solid 1px grey
+
+                                span
+                                    height: 90%
+                                    width: 95%
+                                    border: solid 1px grey
+                                    background: #cccccc
+                                    color: gray
+                                    display: flex
+                                    align-items: center
+                                    justify-content: center
+                                    font-size: 20px
+
+@media screen and (max-width: 1650px)
+    .abcd
+        display: none
+
+    .S_body_div_2_ch2_div2MAINdiv4_mobile
+        display: none
+
+@media screen and (max-width: 768px)
+    
+    body
+        width: 100%
+        display: flex
+        flex-direction: column
+        align-items: center
+        margin: 0
+        height: auto
+
+        .S_body_div_1_c2 
+            display: none !important
+        .abcd
+            display: flex
+            align-items: center
+            width: 70px
+            flex-wrap: nowrap
+            justify-content: space-between !important
+            img
+                height: 25px
+                width: 30px
+
+        .S_body_div_2_ch1
+            display: none !important
+        
+        .S_body_div_2_ch2_div1
+            img
+                width: 50px
+        .S_body_div_2_ch2_div2MAIN_div3
+            height: 575px
+            width: calc(100% - 10px)
+            background-color:  #F0F0F0
+            display: flex
+            padding: 5px
+            justify-content: space-between
+
+            .calender_div
+                width: 60% !important
+            
+            
+
+
+
+
+
+
+
+@media screen and (max-width: 450px)
+    body
+        width: 100%
+        display: flex
+        flex-direction: column
+        align-items: center
+        margin: 0
+        height: auto
+
+        .S_body_div_1
+            background-image: url("assets/mobile-hdr-bg.jpg") !important
+            background-repeat: repeat
+            height: 80px !important
+            display: flex
+            flex-direction: column
+            padding: 10px 0 !important
+            width: 100%
+            align-items: center
+
+            .Hdr
+                width: auto !important
+
+                .S_body_div_1_c1_Header
+                    font-size: 20px !important
+                    white-space: nowrap
+                    color: $grey_shade1
+
+            .abcd
+                display: flex
+                flex-wrap: nowrap
+                width: 20%
+                justify-content: space-between !important
+                img
+                    height: 23px
+                    width: 27px
+
+        .S_body_div_2_ch2_div1
+            padding: 10px 15px
+            height: auto !important
+            width: 100%
+            background: ghostwhite !important
+            display: flex
+            flex-direction: column !important
+            align-items: center !important
+            border-bottom: 1px solid #e6e6e6
+
+            .div1
+                display: flex
+                height: auto !important
+                width:  40% !important
+                flex-direction: column
+                align-self: center !important
+                margin:  0 0 10px 0
+
+                img
+                    height: 20px !important
+                    width: 15px
+ 
+                span
+                    font-size: 20px !important
+
+                p
+                    font-size: 12px !important
+                    white-space: nowrap
+
+            .div2
+                align-self: center !important
+                height: auto !important
+                img
+                    display: none
+                
+                span
+                    font-size: 14px !important
+                
+                h6
+                    font-size: 12px !important
+
+        .S_body_div_2_ch2_div2MAIN_div2
+            height: auto !important
+            width: calc(100% - 10px)
+            display: flex
+            flex-direction: column
+            padding: 5px
+
+            .S_body_div_2_ch2_div2MAIN_div2_d1
+                width: 100% !important
+                background-color: #F0F0F0
+                display: flex
+                flex-direction: column
+                padding: 0
+
+                [class*="S_body_div_2_ch2_div2MAIN_d2_d1_d"]
+                    height: 72px
+                    // width: calc(45% - 6px)
+                    width: calc(100% - 5px) !important
+                    margin: 5px 0px !important
+                    border: 1px solid #e6e6e6
+                    border-radius: 3px
+                    display: flex
+                    flex-direction: column
+
+                    span
+                        font-size: 12px !important
+
+            .S_body_div_2_ch2_div2MAIN_div2_d2
+                
+                .S_body_div_2_ch2_div2MAIN_d2_d2_d2
+                    
+                    .div1
+                        width: 100% !important
+
+                        span
+                            font-size: 16px !important
+                        .txt
+                            font-size: 11px !important
+                .graph
+                    display: none !important
+
+        .S_body_div_2_ch2_div2MAIN_div3
+            height: auto !important
+            width: 100% !important
+            background-color:  #F0F0F0
+            display: flex
+            flex-direction: column !important
+
+            .S_body_div_2_ch2_div2MAIN_div3_NEWS
+                display: flex
+                flex-direction: column
+                height: 450px !important
+                width: 100% !important
+                background: white
+                margin: 10px 0 10px 0 !important
+                border: 1px solid #d9d9d9
+
+                h6
+                    font-size: 12px !important
+                
+                p
+                    font-size: 9px !important
+            
+        .S_body_div_2_ch2_div2MAIN_div4
+                display: none !important
+
+        .S_body_div_2_ch2_div2MAINdiv4_mobile
+            height: auto
+            width: 100%
+            display: flex
+            flex-direction: column
+
+            .chat_div1
+                height: auto
+                padding: 5px
+                width: calc(100% - 10px)
+                background: white
+                display: flex
+                flex-direction: column
+                border: 1px solid #bdbdbd
+                border-radius: 4px
+
+                .color_box
+                    height: 17px
+                    width: auto
+                    padding: 0 5px
+                    border-radius: 3px
+                    margin-left: 5px
+
+                    .color_box_txt
+                        font-size: 10px
+                        line-height: 17px
+                        vertical-align: middle
+                        color: white
+                        font-weight: bold
+                .box1
+                    margin: 10px 10px
+                    height: 60px
+                    width: 80%
+                    display: flex
+                    align-items: center
+                    justify-content: center
+                    background: #bdbdbd
+                    border-radius: 5px
+                    border: solid 1px grey
+                
+                

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="/home/santoshc/Desktop/CODING/HTML/Assignment_5/assignment5_final/assignment5_final.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="CONTENT_CONTAINER">
+        <div class="CONTENT_CONTAINER_1">
+            <div style="display:flex;">
+                <div>
+                    <img src="assets/remedy-logo.gif" width="75px" height="44px" />
+                </div>
+                <span class="separation_ln"></span>
+                <ul class="cc1">
+                    <li><a class="active" href="#">Job Hazard Assessment</a></li>
+                    <li><span class="separation_ln"></span></li>
+                    <li><a href="#">Injury Prevention</a></li>
+                    <li><span class="separation_ln"></span></li>
+                </ul>
+            </div>
+            <div><span class="CC1_txt">Welcome, David Issa | LOGOUT</span></div>
+        </div>
+
+        <div class="CONTENT_CONTAINER_2">
+            <div style="display:flex; align-self: flex-end;">
+                <div class="cc2_txt">Dashboard</div>
+                <div class="cc2_txt" style="color: #4da6ff; border: 1px solid #e6e6e6;background-color: white; border-bottom: 0;">Jobs/Tasks</div>
+                <div class="cc2_txt">Hazards Queue</div>
+                <div class="cc2_txt">Reports</div>
+                <div class="cc2_txt">Help</div>
+            </div>
+            <div class="cc2_box" style="align-self:center;"><span class="cc2_box_txt">+New</span></div>
+        </div>
+    </div>
+
+    <div class="CONTENT_CONTAINER_MAIN">
+
+        <div class="CC_MAIN_div1">
+            <h6 id="ccm_d1_h6_styling">Search Jobs & Tasks</h6>
+            <div>
+                <input class="effect_search_box" type="text" placeholder=" Keyword Search">
+                <button class="button_search_box" type="submit">Search</button>
+            </div>
+            <div style="margin-top: 10px;">
+                <input class="chk_bx_ccmd1" type="checkbox"><span class="chk_bx_ccmd1_txt"> ADVANCED FILTER </span>
+                <span class="chk_bx_ccmd1_txt" style="margin-left: 30px;">RESET ALL</span>
+            </div>
+        </div>
+
+        <div class="CC_MAIN_div2">
+
+            <div class="ccmd2_d1">
+                <h4 id="ccmd2_h4_styling">RISK ASSESSMENT DETAILS</h4>
+                <div style="margin-top:10px;">
+                    <input class="effect_ccmd2_txtbox1" type="text" placeholder=" Project Name">
+                </div>
+                <div style="margin-top:10px;">
+                    <input class="effect_ccmd2_txtbox2" type="text" placeholder=" Status">
+                </div>
+                <div style="margin-top:10px;">
+                    <input class="effect_ccmd2_txtbox2" type="text" placeholder=" Risk Assessor Name">
+                </div>
+            </div>
+
+            <div class="ccmd2_d2">
+
+                <div>
+                    <h4 id="ccmd2_h4_styling">RISK LEVEL</h4>
+                    <table class="ccmd2_d2_table">
+                        <tr>
+                            <td width="0px"><input type="checkbox" id="one"></td>
+                            <td width="0px" id="one">
+                                <div class="color_bx_green"><span class="ccmd2_d2_table_box_txt">1 - 10</span></td>
+                            <td id="one"><span class="ccmd2_d2_table_txt1">Minor</span></td>
+                        </tr>
+                        <tr>
+                            <td width="0px"><input type="checkbox"></td>
+                            <td width="0px">
+                                <div class="color_bx_yellow"><span class="ccmd2_d2_table_box_txt">1 - 10</span></td>
+                            <td><span class="ccmd2_d2_table_txt1">Severe</span></td>
+                        </tr>
+                        <tr>
+                            <td width="0px"><input type="checkbox"></td>
+                            <td width="0px">
+                                <div class="color_bx_red"><span class="ccmd2_d2_table_box_txt">1 - 10</span></td>
+                            <td><span class="ccmd2_d2_table_txt1">Major</span></td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div>
+                    <h4 id="ccmd2_h4_styling">HAZARD TYPE</h4>
+                    <ul class="ccmd2_d2_scroll">
+                        <li><a class="active"><span class="img_list_style"><img src="assets/icon1-active.png"></span>
+                            <span class="list_txt">Radiological</span></a></li>
+                        <li><a><span class="img_list_style"><img src="assets/icon3-active.png"></span>
+                            <span class="list_txt" style="margin-left: 8px;">Chemical</span></a></li>
+                        <li><a><span class="img_list_style"><img src="assets/icon5-active.png"></span>
+                            <span class="list_txt" style="margin-left: 10px;">Electrical</span></a></li>
+                        <li><a><span class="img_list_style"><img src="assets/icon3-active.png"></span>
+                            <span class="list_txt" style="margin-left: 8px;">Chemical</span></a></li>
+                        <li><a><span class="img_list_style"><img src="assets/icon5-active.png"></span><span class="list_txt"
+                            style="margin-left: 10px;">Electrical</span></a></li>
+                        <li><a><span class="img_list_style"><img src="assets/icon3-active.png"></span>
+                            <span class="list_txt" style="margin-left: 8px;">Chemical</span></a></li>
+                        <li><a><span class="img_list_style"><img src="assets/icon5-active.png"></span>
+                            <span class="list_txt" style="margin-left: 10px;">Electrical</span></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="ccmd2_d3">
+
+                <div style="display: flex;flex-direction: column;border: 1px solid #bdbdbd; padding: 15px;border-bottom: 0; border-top-left-radius:6px; border-top-right-radius: 6px;background-color: white;">
+                    <div>
+                        <h4 id="ccmd2_h4_styling">LOCATION</h4>
+                    </div>
+                    <div style="display:flex;justify-content: space-evenly;flex-wrap: wrap;">
+                        <div style="margin-top:10px;">
+                            <input class="effect_ccmd2_txtbox2" type="text" placeholder=" Country">
+                        </div>
+                        <div style="margin-top:10px;">
+                            <input class="effect_ccmd2_txtbox2" type="text" placeholder=" State">
+                        </div>
+                        <div style="margin-top:10px;">
+                            <input class="effect_ccmd2_txtbox2" type="text" placeholder=" City">
+                        </div>
+                    </div>
+                </div>
+                
+                <div style="display: flex; flex-direction:column;border: 1px solid #bdbdbd; padding: 15px;background-color: white;">
+                    <div>
+                        <h4 id="ccmd2_h4_styling">DEPARTMENT/DIVISION/SECTION</h4>
+                    </div>
+                    <div style="display:flex;justify-content: space-evenly;flex-wrap: wrap;">
+                        <div style="margin-top:10px;">
+                            <input class="effect_ccmd2_txtbox2" type="text" placeholder=" Department">
+                        </div>
+                        <div style="margin-top:10px;">
+                            <input class="effect_ccmd2_txtbox2" type="text" placeholder=" Division">
+                        </div>
+                        <div style="margin-top:10px;">
+                            <input class="effect_ccmd2_txtbox2" type="text" placeholder=" Section">
+                        </div>
+                    </div>
+                    <div style="display:flex;flex-wrap: wrap;padding: 20px 15px 0 18px;">
+                        <div style="margin:10px 0 0 0;">
+                            <input class="effect_ccmd2_txtbox2" type="text" placeholder=" Where">
+                        </div>
+                        <div style="margin:10px 0 0 20px;">
+                            <input class="effect_ccmd2_txtbox2" type="text" placeholder=" Other Field">
+                        </div>
+                    </div>
+                </div>
+                <div style="display: flex;flex-direction: column;border: 1px solid #bdbdbd; padding: 15px;border-top: 0; border-bottom-left-radius:6px; border-bottom-right-radius: 6px;background-color: white;">
+                    <div>
+                        <h4 id="ccmd2_h4_styling">COMPLETED BETWEEN</h4>
+                    </div>
+                    <div style="display:flex;justify-content: space-around;padding: 10px 0 0 0;">
+                        <div>
+                            <table class="start_end_table">
+                                <tr>
+                                    <td>START</td>
+                                    <td><input class="effect_ccmd2_txtbox3" type="text" placeholder="MM/DD/Y"></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div>
+                            <table class="start_end_table">
+                                <tr>
+                                    <td>END</td>
+                                    <td><input class="effect_ccmd2_txtbox3" type="text" placeholder="MM/DD/Y"></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div>
+                            <button class="button_aply_chngs_box" type="submit">Apply Changes</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+                <div style="display:flex;justify-content: space-between;width: 100%;">
+                    <div>
+                        <table class="ccmd2_last_div">
+                            <tr>
+                                <td>First</td>
+                                <td class="pagination" style="border:0;margin-left: 10px;">
+                                    <a style="margin-left: 0;" href="#">&laquo;</a>
+                                    <a href="#" class="active"><span class="pagination_txt">1</span></a>
+                                    <a href="#"><span class="pagination_txt">2</span></a>
+                                    <a href="#"><span class="pagination_txt">3</span></a>
+                                    <a href="#"><span class="pagination_txt">4</span></a>
+                                    <a href="#"><span class="pagination_txt">5</span></a>
+                                    <a style="margin-right: 10px;" href="#">&raquo;</a>
+                                </td>
+                                <td style="margin-left: 20px;">Last</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div>
+                        <table class="ccmd2_last_div">
+                            <tr>
+                                <td style="border:0;">Show : </td>
+                                <td style="border:0;"><input style="padding:0;width: 40px;" list="page" type="text" placeholder=" 10">
+                                    <datalist id="page">
+                                        <option value="1" />
+                                        <option value="2" />
+                                        <option value="3" />
+                                    </datalist>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div>
+                        <table class="ccmd2_last_div">
+                            <tr>
+                                <td style="border:0;">Showing 1 to 10 of 4088 Items</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                </div>
+        </div>
+                    
+                    <table class="last_table">
+                        <tr style="background-image: linear-gradient(white, #bfbfbf);">
+                            <th>JOB/TASK NAME</th>
+                            <th>RISK ASSESSOR</th>
+                            <th>CURRENT STATUS</th>
+                            <th>LAST COMPLETED</th>
+                        </tr>
+                        <tr style="height: 43px;background-color: white;border: 1px solid #dddddd;">
+                            <td style="font-weight: bold;"><span class="img_last_table"><img src="assets/job.png"></span>
+                                <span class="txt_last_table"></span>This a Job Name</span></td>
+                            <td>John Smith</td>
+                            <td>Open Pending Approval</td>
+                            <td>0322011</td>
+                        </tr>
+                        <tr style="height: 43px;background-color: white;border: 1px solid #dddddd;">
+                            <td style="font-weight: bold;"><span class="img_last_table"><img src="assets/task.png"></span>
+                                <span class="txt_last_table"></span>This is a Task Name</span></td>
+                            <td>Theodre Roosevalt</td>
+                            <td>Open Pending Approval</td>
+                            <td>0322011</td>
+                        </tr>
+                        <tr style="height: 43px;background-color: white;border: 1px solid #dddddd;">
+                            <td style="font-weight: bold;"><span class="img_last_table"><img src="assets/job.png"></span>
+                                <span class="txt_last_table"></span>This a Job Name</span></td>
+                            <td>John Smith</td>
+                            <td>Open Pending Approval</td>
+                            <td>0322011</td>
+                        </tr>
+                        <tr style="height: 43px;background-color: white;border: 1px solid #dddddd;">
+                            <td style="font-weight: bold;"><span class="img_last_table"><img src="assets/task.png"></span>
+                                <span class="txt_last_table"></span>This is a Task Name</span></td>
+                            <td>Theodre Roosevalt</td>
+                            <td>Open Pending Approval</td>
+                            <td>0322011</td>
+                        </tr>
+                    </table>
+    <div class="CC_FOOTER_DIV_3">
+        <footer>© Copyright 2012. Remedy Interactive | PRIVACY POLICY</footer>
+    </div>
+
+                    
+
+</body>
+
+</html>
